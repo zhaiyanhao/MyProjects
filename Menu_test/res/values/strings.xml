@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Menu_test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="planet">
+        <item>Login</item>
+        <item>Home</item>
+        <item>Order</item>
+        <item>Info</item>
+    </string-array>
+    <string-array name="dish">
+        <item>Burrito</item>
+        <item>Tacos</item>
+        <item>Soft Tacos</item>
+        <item>Salad</item>
+        <item>snack</item>
+    </string-array>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_welcom">MainActivity</string>
+    <string name="title_activity_reister">MainActivity</string>
+    <string name="title_activity_reset">ResetActivity</string>
+
+</resources>

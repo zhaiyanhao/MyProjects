@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="true"
+    >
+<item android:duration="40" android:drawable="@drawable/sub_drink00000"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00001"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00002"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00003"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00004"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00005"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00006"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00007"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00008"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00009"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00010"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00011"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00012"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00013"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00014"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00015"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00016"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00017"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00018"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00019"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00020"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00021"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00022"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00023"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00024"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00025"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00026"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00027"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00028"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00029"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00030"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00031"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00032"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00033"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00034"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00035"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00036"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00037"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00038"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00039"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00040"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00041"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00042"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00043"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00044"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00045"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00046"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00047"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00048"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00049"></item>
+<item android:duration="40" android:drawable="@drawable/sub_drink00050"></item>
+
+
+    
+
+   
+</animation-list>

@@ -1,0 +1,87 @@
+<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+<LinearLayout
+    android:id="@+id/content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:id="@+id/content_2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+    
+     >
+
+        <ImageView
+            android:id="@+id/need_gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:src="@drawable/home_dish" />
+
+    </FrameLayout>
+
+     
+    
+
+    <RadioGroup
+        android:id="@+id/rg_tab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_weibo_listab"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <RadioButton
+            android:id="@+id/Home"
+            style="@style/weibo_tab"
+            android:checked="true"
+            android:drawableTop="@drawable/weibolist_attention_selector"
+            android:text="" />
+
+        <RadioButton
+            android:id="@+id/Res"
+            style="@style/weibo_tab"
+            android:drawableTop="@drawable/weibolist_atme_selector"
+            android:text="" />
+
+        <RadioButton
+            android:id="@+id/Menu"
+            style="@style/weibo_tab"
+            android:drawableTop="@drawable/weibolist_comment_selector"
+            android:text="" />
+
+        <RadioButton
+            android:id="@+id/Drink"
+            style="@style/weibo_tab"
+            android:drawableTop="@drawable/weibolist_mylist_selector"
+            android:text="" />
+
+        <RadioButton
+            android:id="@+id/Info"
+            style="@style/weibo_tab"
+            android:drawableTop="@drawable/weibolist_global_selector"
+            android:text="" />
+    </RadioGroup>
+
+</LinearLayout> 
+
+     <ListView
+         android:id="@+id/drawerList"
+         android:layout_width="200dp"
+         android:layout_height="match_parent"
+         android:layout_gravity="left"
+         android:layoutAnimation="@anim/listview_anim"	
+         >
+
+    </ListView>
+    
+</android.support.v4.widget.DrawerLayout>
+

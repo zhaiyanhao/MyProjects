@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context="${packageName}.${activityClass}" >
+
+    <EditText
+        android:id="@+id/oldpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="Old Password"
+        android:inputType="textPassword" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/newpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="New Password"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:id="@+id/renewpass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/input"
+        android:ems="10"
+        android:hint="Renew Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/reset_pass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:background="@drawable/reset_gear_select" />
+
+</LinearLayout>

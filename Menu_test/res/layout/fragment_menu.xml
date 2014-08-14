@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_marginTop="-10dp" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="220dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView1"
+                    android:layout_width="200dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/menu_item1" />
+
+                <RadioGroup
+                    android:id="@+id/radio_flavor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/bowl"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Bowl" />
+
+                    <RadioButton
+                        android:id="@+id/burrito"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Burrito" />
+
+                    <RadioButton
+                        android:id="@+id/tacos"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tacos" />
+                </RadioGroup>
+
+            </LinearLayout>
+            
+             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="200dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/menu_item2" />
+
+                <RadioGroup
+                    android:id="@+id/radio_rice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/friedrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Fried rice" />
+
+                    <RadioButton
+                        android:id="@+id/whiterice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="White rice" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="200dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/menu_item3" />
+
+                <RadioGroup
+                    android:id="@+id/radio_bean"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/blackbean"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Black bean" />
+
+                    <RadioButton
+                        android:id="@+id/pintobean"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pinto bean" />
+
+                </RadioGroup>
+
+            </LinearLayout>
+             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="200dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/menu_item4" />
+
+                <RadioGroup
+                    android:id="@+id/radio_meat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/chicken"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chicken" />
+
+                    <RadioButton
+                        android:id="@+id/steak"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Steak" />
+
+                    <RadioButton
+                        android:id="@+id/pork"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pork" />
+                </RadioGroup>
+
+            </LinearLayout>
+             <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView5"
+                    android:layout_width="200dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/menu_item5" />
+
+                <RadioGroup
+                    android:id="@+id/radio_ingredient"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/tomato"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tomato" />
+
+                    <RadioButton
+                        android:id="@+id/chili_corn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Chili-corn" />
+
+                    <RadioButton
+                        android:id="@+id/greenchili"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tomatillo-green chili" />
+                    <RadioButton
+                        android:id="@+id/redchili"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tomatillo-red chili" />
+                </RadioGroup>
+
+            </LinearLayout>
+            
+              <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="240dp"
+                android:orientation="vertical" >
+
+                <ImageView
+                    android:id="@+id/imageView6"
+                    android:layout_width="200dp"
+                    android:layout_height="120dp"
+                    android:src="@drawable/menu_item6" />
+
+                <RadioGroup
+                    android:id="@+id/radio_source"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <RadioButton
+                        android:id="@+id/cuacamole"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Cuacamole" />
+
+                    <RadioButton
+                        android:id="@+id/sourcream"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Sour cream" />
+                </RadioGroup>
+
+            </LinearLayout>
+        </LinearLayout>
+        
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/menu_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:background="@drawable/drink_submit_button" />
+
+</LinearLayout>

@@ -1,0 +1,5 @@
+<layoutAnimation xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:animation="@anim/drawer_anim" 
+    android:animationOrder="normal" 
+    android:delay="0.2" 
+    />

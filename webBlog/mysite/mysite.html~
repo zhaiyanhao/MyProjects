@@ -1,0 +1,54 @@
+<html>
+	<head>
+		<title>mysite</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600" rel="stylesheet" type="text/css" />
+		<script type="text/javascript" src="mysite/js/jquery.min.js"></script>
+		<script  type="text/javascript" src="mysite/js/jquery.dropotron.js"></script>
+		<script  type="text/javascript" src="mysite/js/skel.min.js"></script>
+		<script  type="text/javascript" src="mysite/js/skel-panels.min.js"></script>
+		<script  type="text/javascript" src="mysite/js/init.js"></script>
+		<style type="text/css">
+		</style>
+
+
+    <link href="mysite/css/style.css" rel="stylesheet" type="text/css">
+
+
+
+</head>
+	<body class="homepage">
+
+		<!-- Header -->
+			<div id="header">
+						
+				<!-- Inner -->
+			  <div class="inner">
+				<header>
+							<h1><a href="#" id="logo">Welcome</a></h1>
+							<hr />
+<span class="byline">Another fine freebie by HTML5 UP</span>
+						</header>
+						<footer>
+							<a href="#banner" class="button circled scrolly">Start</a>
+				</footer>
+					</div>
+				
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="index.html">
+									Dropdown</a> </li>
+							<li><a href="left-sidebar.html">Left Sidebar</a></li>
+							<li><a href="right-sidebar.html">Right Sidebar</a></li>
+							
+					  </ul>
+			  </nav>
+
+			</div>
+            
+	</body>
+</html>

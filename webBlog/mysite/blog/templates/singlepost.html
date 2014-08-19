@@ -1,0 +1,22 @@
+{% extends "specificpost.html" %}
+{% block content %}
+<section>
+<header><span class ="byline" >{{ post.title }}</span></header>
+<h3>{{ post.timestamp }}</h3>
+<p>{{ post.body }}</p>
+</section>
+{% endblock %}
+
+
+
+{% block article %}
+
+{% for post in posts %}
+
+<h3>{{ post.timestamp }}</h3>
+
+{% endfor %}
+
+{% endblock %}
+
+

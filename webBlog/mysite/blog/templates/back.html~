@@ -1,0 +1,9 @@
+<html>
+
+<link rel="stylesheet" type="text/css"  href="doc.css"/>
+<body>
+<h1>mysite.example.com</h1>
+{% block content %}
+{% endblock %}
+</body>
+</html>

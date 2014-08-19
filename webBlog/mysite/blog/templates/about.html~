@@ -1,0 +1,29 @@
+{% extends "specificpost.html" %}
+
+{% block head %}
+							
+<h1><a href="#" id="logo">ABOUTS</a></h1>
+
+{% endblock %}
+
+{% block content %}
+<section>
+<header><span class ="byline" >Contact</span></header>
+<h3>This is finished by Apil 30 , 2014</h3>
+<p>This is finished by Apil 30 , 2014</p>
+<p>Team Member:Tianyi Zhou, Yanhao Zhai, Chenxin Ji  </p>
+</seciton>
+{% endblock %}
+
+
+
+{% block article %}
+
+{% for limit in limits %}
+
+<h3>{{ limit.timestamp }}</h3>
+
+{% endfor %}
+
+{% endblock %}
+

@@ -1,0 +1,69 @@
+{% extends "post.html" %}
+{% block content %}
+<section class="im-container" id="im-container">
+{% for photo in photos %}
+<article>
+
+					<header>
+						<p><a href="/media/{{ photo.image }}"><img src="{{ photo.image.thumb_url }}" /></a></p>
+					</header>
+
+</article>
+{% endfor %}
+</section>
+        </div>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				
+				var $container	= $('#im-container'),
+					$articles	= $container.children('article'),
+					timeout;
+				
+				$articles.on( 'mouseenter', function( event ) {
+						
+					var $article	= $(this);
+					clearTimeout( timeout );
+					timeout = setTimeout( function() {
+						
+						if( $article.hasClass('active') ) return false;
+						
+						$articles.not( $article.removeClass('blur').addClass('active') )
+								 .removeClass('active')
+								 .addClass('blur');
+						
+					}, 65 );
+					
+				});
+				
+				$container.on( 'mouseleave', function( event ) {
+					
+					clearTimeout( timeout );
+					$articles.removeClass('active blur');
+					
+				});
+			
+			});
+		</script>
+					
+
+{% endblock %}
+
+
+
+{% block article %}
+
+{% for limit in limits %}
+
+<h3>{{ limit.timestamp }}</h3>
+
+{% endfor %}
+
+{% endblock %}
+
+
+
+
+
+
+

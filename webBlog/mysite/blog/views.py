@@ -1,0 +1,26 @@
+from django.template import loader, Context
+from django.template import RequestContext
+from  django.shortcuts  import  render_to_response
+from blog.models import BlogPost, Photo
+
+def base(request):  
+    posts= BlogPost.objects.all()
+    limits=BlogPost.objects.all()[0:4]
+    return render_to_response('base.html',{'posts':posts,'limits':limits})
+
+def imag(request):  
+    photos= Photo.objects.all()
+    limits=BlogPost.objects.all()[0:4]
+    return render_to_response('imag.html',{'limits':limits,'photos':photos})
+
+def SpecificBlog(request, posttitle):
+    post = BlogPost.objects.get(title=posttitle)
+    posts= BlogPost.objects.all()
+    context= {'post':post,'posts':posts}
+    return render_to_response('singlepost.html', context,context_instance=RequestContext(request))
+
+def Abouts(request):
+    limits=BlogPost.objects.all()[0:4]
+    return render_to_response('about.html',{'limits':limits,})
+
+
